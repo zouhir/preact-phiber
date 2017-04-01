@@ -69,7 +69,8 @@ module.exports = {
       filename: '[name].css'
     }),
     new CopyWebpackPlugin([
-      { from: 'favicons', from: 'media' }
+      { from: 'favicons'},
+      { from: 'media' }
     ]),
     new OfflinePlugin({
       safeToUseOptionalCaches: true,
