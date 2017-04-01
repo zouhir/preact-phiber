@@ -136,6 +136,9 @@ section {
   max-width: 700px;
   margin: 0 auto;
   border: 2px solid $lava-orange;
+  video {
+    max-width: 100%;
+  }
 }
 
 .team {
