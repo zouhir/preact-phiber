@@ -161,6 +161,10 @@ section {
   .avatar {
     width: 120px;
     height: 120px;
+    @media (max-width: $mobile) {
+      width: 100px;
+      height: 100px;
+    }
     border-radius: 50%;
     background-position: center;
     background-size: 100% auto;
