@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Preact Phiber</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#f7f9f4">
+
+</head>
+
+<body>
+
+  <section class="hero light">
+    <div class="logo">
+      <%= require('./logo.svg') %>
+    </div>
+
+    <div class="container-pp">
+      <h1>introducing <span>Preact Phiber</span></h1>
+      <h2>The 3kb alternative to React Fiber with the same API</h2>
+    </div>
+
+  </section>
+
+  <section class="dark">
+    <div class="container-pp">
+      <h1>
+        Technology
+      </h1>
+      <h2>Streamable Components using Phiber Minimal Pipes Algorithm</h2>
+      <p>
+        Preact Phiber allows you to render components in streamable chunks (like large JPEGs on a dial up connection) so that a component,
+        its children, its aunts and uncles, its first, second & third (not fourth because minimal) cousins, and its maternal
+        grandparents can load asynchronously. Our priority system (aka, family free favoritism) allows for full interactivity
+        before the bundle even finishes loading.
+      </p>
+    </div>
+  </section>
+
+  <section class="light">
+    <div class="container-pp">
+      <h1>Who is using Preact Phiber</h1>
+      <h2>Chime Beta: A 30KB alterative to Twitter with the same API</h2>
+      <div id="video"></div>
+    </div>
+  </section>
+
+  <section class="dark">
+    <div class="container-pp">
+      <h1>Core Team</h1>
+      <a>
+        Jason Miller
+      </a>
+    </div>
+  </section>
+
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
