@@ -84,9 +84,6 @@ module.exports = {
         additional: [
           '*.woff',
           '*.woff2'
-        ],
-        optional: [
-          ':rest:'
         ]
       },
 
