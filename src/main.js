@@ -36,6 +36,7 @@ OfflinePlugin.install({
     var sourceMP4 = document.createElement("source"); 
     sourceMP4.type = "video/mp4";
     sourceMP4.src = "/demo.mp4";
+    videoEl.setAttribute("controls", "true");
     videoEl.appendChild(sourceMP4);
     document.getElementById('video').appendChild(videoEl); 
   }
